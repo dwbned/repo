@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Huawei Health Açılıyor</title>
+  <script>
+    window.onload = function () {
+      window.location.href = "huaweihealth://huaweihealth.app/openwith?type=aar&address=https://h5hosting-dre.dbankcdn.com/cch5/health/watchFace/index.html#/search?keyword=Salih Harmancı&from=theme_app";
+      setTimeout(function () {
+        document.getElementById("fallback").style.display = "block";
+      }, 3000);
+    };
+  </script>
+</head>
+<body>
+  <p>Huawei Health uygulaması açılıyor...</p>
+  <div id="fallback" style="display:none;">
+    <p>Uygulama açılmadıysa, lütfen <a href="https://appgallery.huawei.com/#/app/C10414141">Huawei Health uygulamasını indir</a>.</p>
+  </div>
+</body>
+</html>
